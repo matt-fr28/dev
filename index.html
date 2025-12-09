@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MyWatchList - Accueil</title>
+  <link rel="stylesheet" href="style.css">
+    <!-- Firebase (librairie en ligne) -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+
+    <!-- Vos fichiers -->
+    <script src="firebase-config.js"></script>
+    <script src="firebase-functions.js"></script>
+</head>
+<body>
+  <header>
+    <div class="logo-area">
+      <img src="logo.png" alt="Logo" class="logo" />
+      <strong>MyWatchList</strong>
+    </div>
+
+    <div class="search">
+      <input type="text" id="searchBar" placeholder="Rechercher un film..." />
+    </div>
+
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="taliste.html">Ta liste</a>
+      <a href="lestend.html">Les tendances</a>
+      <a href="co.html">Connexion</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Bienvenue sur MyWatchList</h1>
+    <p>
+      MyWatchList te permet de noter tes films préférés, garder une trace de ce que tu as regardé, et découvrir de nouvelles recommandations.
+      Ajoute les films que tu aimes, consulte les avis des autres, et explore les tendances du moment.
+    </p>
+  </main>
+</body>
+</html>
